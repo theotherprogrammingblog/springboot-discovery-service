@@ -6,16 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-order-service" />
         <module name="discovery-service" />
+        <module name="spring-boot-api-gateway" />
+        <module name="spring-boot-product-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="discovery-service" target="1.8" />
+      <module name="spring-boot-api-gateway" target="1.8" />
+      <module name="spring-boot-order-service" target="1.8" />
+      <module name="spring-boot-product-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="discovery-service" options="-parameters" />
+      <module name="spring-boot-api-gateway" options="-parameters" />
+      <module name="spring-boot-order-service" options="-parameters" />
+      <module name="spring-boot-product-service" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38b19ab4-290c-4884-9605-9ddde90aaabd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="38b19ab4-290c-4884-9605-9ddde90aaabd" name="Default Changelist" comment="updating config">
+      <change afterPath="$PROJECT_DIR$/../spring-boot-product-service/src/main/java/com/theotherprogrammingblog/spring/boot/product/service/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +17,15 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../spring-boot-api-gateway" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -33,9 +45,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-order-service/pom.xml" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SpringBootApiGatewayApplication">
     <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.theotherprogrammingblog.eurekaserver.EurekaServerApplication" />
       <module name="discovery-service" />
@@ -49,8 +61,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.theotherprogrammingblog.spring.boot.api.gateway.SpringBootApiGatewayApplication" />
+      <module name="spring-boot-api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.theotherprogrammingblog.spring.boot.api.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootOrderServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.theotherprogrammingblog.springbootorderservice.SpringBootOrderServiceApplication" />
+      <module name="spring-boot-order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.theotherprogrammingblog.springbootorderservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.theotherprogrammingblog.spring.boot.product.service.SpringBootProductServiceApplication" />
+      <module name="spring-boot-product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.theotherprogrammingblog.spring.boot.product.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringBootApiGatewayApplication" />
+        <item itemvalue="Application.SpringBootOrderServiceApplication" />
+        <item itemvalue="Application.SpringBootProductServiceApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
       </list>
     </recent_temporary>
@@ -85,41 +139,84 @@
       <option name="project" value="LOCAL" />
       <updated>1575679229744</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1575679395006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575679395006</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cleanup">
+      <created>1575679449343</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575679449343</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updating config">
+      <created>1575795868697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575795868697</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding OrderController">
+      <created>1575795910200</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575795910200</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="updating config" />
+    <MESSAGE value="adding OrderController" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding OrderController" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="497" y="118" key="CommitChangelistDialog2" timestamp="1575679393943">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="4337" y="118" key="CommitChangelistDialog2" timestamp="1575795967115">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="497" y="118" key="CommitChangelistDialog2/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1575679393943" />
-    <state width="1878" height="282" key="GridCell.Tab.0.bottom" timestamp="1575679420640">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="497" y="118" key="CommitChangelistDialog2/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1575679448177" />
+    <state x="4337" y="118" key="CommitChangelistDialog2/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1575795967115" />
+    <state x="4581" y="278" key="FileChooserDialogImpl" timestamp="1575780652266">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="278" key="FileChooserDialogImpl/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1575679934945" />
+    <state x="4581" y="278" key="FileChooserDialogImpl/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1575780652266" />
+    <state width="1850" height="488" key="GridCell.Tab.0.bottom" timestamp="1575795660039">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1575679420640" />
-    <state width="1878" height="282" key="GridCell.Tab.0.center" timestamp="1575679420640">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1850" height="488" key="GridCell.Tab.0.bottom/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1575795660039" />
+    <state width="1850" height="488" key="GridCell.Tab.0.center" timestamp="1575795660039">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state width="1878" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1575679420640" />
-    <state width="1878" height="282" key="GridCell.Tab.0.left" timestamp="1575679420640">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1850" height="488" key="GridCell.Tab.0.center/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1575795660039" />
+    <state width="1850" height="488" key="GridCell.Tab.0.left" timestamp="1575795660039">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state width="1878" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1575679420640" />
-    <state width="1878" height="282" key="GridCell.Tab.0.right" timestamp="1575679420640">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1850" height="488" key="GridCell.Tab.0.left/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1575795660039" />
+    <state width="1850" height="488" key="GridCell.Tab.0.right" timestamp="1575795660039">
+      <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state width="1878" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1575679420640" />
+    <state width="1850" height="488" key="GridCell.Tab.0.right/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1575795660039" />
     <state x="602" y="234" key="RollbackChangesDialog" timestamp="1575679097205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="602" y="234" key="RollbackChangesDialog/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1575679097205" />
-    <state x="553" y="256" key="Vcs.Push.Dialog.v2" timestamp="1575679402728">
+    <state x="553" y="256" key="Vcs.Push.Dialog.v2" timestamp="1575679457553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="553" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1575679402728" />
+    <state x="553" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1575679457553" />
   </component>
 </project>
